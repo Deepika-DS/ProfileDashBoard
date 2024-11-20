@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merienda:wght@300..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+    
+	box-sizing: border-box;
+    font-family: "Host Grotesk", sans-serif;
+}
+
+
+                                /* navBar */
+
+#head-titleBar{
+    background-color: #da7192;
+    font-size: 19px;
+    color: #fff;
+    padding: 1%;
+    font-weight: bold;
+}
+#searhBar{
+    width: 110%;
+    height: 27%;
+}
+.container-navbar{
+    background-color: #006dbf;
+    font-size: 20px;
+    color: #fff;
+
+}
+.nav-links{
+    display:flex;
+    list-style-type: none;
+
+}
+.rightNavBars{
+    position: relative;
+    left: 54%;
+    margin-top: 2%;
+}
+.nav-links  li {
+    padding-right: 2%;
+}
+i{
+    background-color: #fff;
+    border-color: black;
+    border-radius: 11px;
+    text-align: center;
+    width: 39px;
+    height: 26px;
+    position: relative;;
+
+}
+#headerText{
+    line-height: 48px;
+    padding: 1%;
+}
+
+
+                /* Main Container */
+#main-container{
+    padding: 2%;
+}
+.profileFlex ,.signatoryFlex{
+    display:inline-block;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    border: 1px solid transparent;
+    margin-right: 10px;
+    border-radius: 17px;
+}
+.signatoryFlex{
+   width: 691px;
+}
+.profileFlex{
+    width: 719px;
+}
+#AssetTile{
+    text-align: center;
+}
+.signatoryflex-items{
+    display: inline-block;
+    background-color: #eff8ff;
+    padding: 4%;
+}
+.flex-items{
+    display: inline-block;
+    background-color: #eff8ff;
+   padding: 3%;
+}
+.detailFlex-items {
+    display: inline-block;
+    
+}
+.detailFlex-items  img{
+   margin-bottom: 46%;
+   margin-right: 20px; 
+    
+}
+.detailFlex-items div{
+    position: relative;
+    /* padding: 2%; */
+    margin-top: 10px;
+    width: 244px;
+}
+#profileDetail , #signatoryDetail{
+    padding: 3%;
+}
+button{
+    margin-top: 3%;
+    padding: 1%;
+    background-color: #d72157;
+    color: white;
+    border-radius: 11px;
+}
+.assestsSet{
+    color: #1d5492;
+    font-size: 35px;
+    margin-bottom: 21px;
+    text-align: center;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+#signatoryFlex{
+    padding: 20px;
+}
+.signatoryflex-items div{
+    line-height: 25px;
+    font-size: 17px;
+   
+ }
+.assestName{
+    font-size: 21px;
+    color: #1d5492;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px;
+}
+
+.witness{
+   
+    text-align: center;
+   
+}
+
